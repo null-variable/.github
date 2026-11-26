@@ -1,0 +1,22 @@
+name: Feature request
+description: Propose a new feature or change (English, 한국어, 中文, 日本語)
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard to do today, and in which situation
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: The behavior you want, with an example if possible
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives

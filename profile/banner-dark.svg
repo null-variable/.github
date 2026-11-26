@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">null-variable</title>
+  <desc id="d">null-variable: a value that can become anything</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d12"/>
+      <stop offset="1" stop-color="#121826"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="16" fill="url(#g)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#grid)"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="600" y="160" text-anchor="middle" font-size="64" font-weight="700" fill="#f4f4f5">
+      <tspan fill="#71717a">let </tspan><tspan>v</tspan><tspan fill="#71717a"> = </tspan><tspan fill="url(#a)">null</tspan><tspan fill="#71717a">;</tspan>
+    </text>
+    <text x="600" y="225" text-anchor="middle" font-size="24" fill="#a1a1aa">null-variable — a value that can become anything</text>
+  </g>
+</svg>
